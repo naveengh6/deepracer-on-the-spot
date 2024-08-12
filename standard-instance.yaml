@@ -4,7 +4,7 @@ Description: Setup a standard EC2 instance for deep racer
 Parameters:
   InstanceType:
     Type: String
-    Default: g4dn.2xlarge
+    Default: g4dn.xlarge
   ResourcesStackName:
     Type: String
   DeepRacerImportName:
